@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprende programación y transforma tu futuro con nuestra academia innovadora">
+    <meta name="keywords" content="programación, cursos, desarrollo web, aprender a programar, carrera tecnológica">
+    <title>Programming Sanctuary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/styles.css">
+    <link rel="icon" href="./img/icons/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+    <div class="container">
+        <a href="#" class="logo">
+            <span class="logo-icon">{</span>
+            <span class="logo-text">Programming Sanctuary</span>
+            <span class="logo-icon">}</span>
+        </a>
+        <button class="menu-toggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-overlay"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#inicio" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Inicio</span>
+                </a></li>
+                <li><a href="#cursos" class="nav-link">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Cursos</span>
+                </a></li>
+                <li><a href="#metodologia" class="nav-link">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <span>Método</span>
+                </a></li>
+                <li><a href="#contacto" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contacto</span>
+                </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">El futuro no se predice. Se programa</h1>
+                    <p class="hero-text">Únete a la aventura de la programación y aprende como crear soluciones que
+                        impacten al mundo.</p>
+                    <p class="hero-text">Innovando una linea de código a la vez</p>
+                    <p>Codiventurate será fabunlantastico</p>
+                    <p>
+                        Si puedes ver un
+                        <strong class="animate-bounce">Error</strong>
+                        en esta sección tu poder de observación está activo e ideal para debbugear o depurar código
+                    </p>
+
+                    <a href="#cursos" class="cta-button">Empieza tu aventura</a>
+                </div>
+                <div class="hero-image">
+                    <img src="./img/main-banner.png" alt="Persona programando en una laptop" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="cursos" class="courses">
+            <div class="container">
+                <h2 class="section-title">Nuestros Cursos</h2>
+                <p class="section-subtitle">Elige tu camino en esta aventura tecnológica</p>
+
+                <div class="cards-container">
+                    <!-- Card 1 -->
+                    <div class="card card-1">
+                        <div class="card-icon">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons/javascrip.png">
+                                <source media="(min-width:465px)" srcset="./img/icons/javascrip.png">
+                                <img src="./img/icons/javascrip.png" alt="Imagen de logo Javascript"
+                                    style="width:auto;">
+                            </picture>
+                        </div>
+                        <h3 class="card-title">Fundamentos de Programación</h3>
+                        <p class="card-text">Aprende las bases que todo desarrollador necesita, independientemente del
+                            lenguaje.</p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card card-2">
+                        <div class="card-icon">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons/css3.png">
+                                <source media="(min-width:465px)" srcset="./img/icons/css3.png">
+                                <img src="./img/icons/css3.png" alt="Imagen de logo Javascript" style="width:auto;">
+                            </picture>
+                        </div>
+                        <h3 class="card-title">CSS Creativo</h3>
+                        <p class="card-text highlight">Diseñar Interfaces increibles, domina Flextbox, Grid y
+                            animaciones que impresionan</p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card card-3">
+                        <div class="card-icon">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons/java.png">
+                                <source media="(min-width:465px)" srcset="./img/icons/java.png">
+                                <img src="./img/icons/java.png" alt="Imagen de logo Java" style="width:auto;">
+                            </picture>
+                        </div>
+                        <h3 class="card-title">Programación Orientada a Objetos</h3>
+                        <p class="card-text">Código reutilizable, escalable y fácil de mantener. ¡Aprovecha
+                            encapsulamiento, herencia y polimorfismo para crear apps robustas!.</p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="card card-4">
+                        <div class="card-icon">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons/spring-boot.png">
+                                <source media="(min-width:465px)" srcset="./img/icons/spring-boot.png">
+                                <img src="./img/icons/spring-boot.png" alt="Imagen de logo spring-boot"
+                                    style="width:auto;">
+                            </picture>
+                        </div>
+                        <h3 class="card-title">Spring Boot: Codifica más, configura menos</h3>
+                        <p class="card-text">Desarrollo ágil, modular y eficiente. Aprovecha Spring Boot: configuración
+                            automática, inyección de dependencias y APIs RESTful para aplicaciones robustas y
+                            productivas.</p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="card card-5">
+                        <div class="card-icon">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons/sql.png">
+                                <source media="(min-width:465px)" srcset="./img/icons/sql.png">
+                                <img src="./img/icons/sql.png" alt="Imagen de logo sql" style="width:auto;">
+                            </picture>
+                        </div>
+                        <h3 class="card-title">Arquitectura de Datos Confiables</h3>
+                        <p class="card-text">Aprende gestión avanzada de datos con enfoque en persistencia, integridad y
+                            confiabilidad.</p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="card card-6">
+                        <div class="card-icon">
+                            <div class="card-icon">
+                                <picture>
+                                    <source media="(min-width:650px)" srcset="./img/icons/git.png">
+                                    <source media="(min-width:465px)" srcset="./img/icons/git.png">
+                                    <img src="./img/icons/git.png" alt="Imagen de logo git" style="width:auto;">
+                                </picture>
+                            </div>
+                        </div>
+                        <h3 class="card-title">Sistema de Control de Versiones</h3>
+                        <p class="card-text">Implementa flujos de trabajo eficientes y mantené el historial de tu
+                            proyecto seguro y documentado.
+                        </p>
+                        <a href="#" class="card-link">Explorar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodologia" class="method">
+            <div class="container">
+                <h2 class="section-title">Nuestro Método</h2>
+                <p class="section-subtitle">Aprende haciendo, con proyectos reales</p>
+
+                <div class="method-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Conceptos Clave</h3>
+                        <p class="step-text">Aprendizaje de fundamentos teóricos esenciales</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Práctica Guiada</h3>
+                        <p class="step-text">Ejercicios estructurados para aplicar lo aprendido</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Proyectos Reales</h3>
+                        <p class="step-text">Desarrollo de proyectos reales con enfoque práctico en programación y
+                            arquitectura de software.</p>
+
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Retroalimentación</h3>
+                        <p class="step-text">Revisión experta y mejora continua</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Historias de Éxito</h2>
+                <p class="section-subtitle">Lo que dicen nuestros aventureros</p>
+
+                <div class="testimonial-cards">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Aprender a programar cambió mi vida. En 6 meses pasé de no
+                                saber nada de
+                                programación a conseguir mi primer trabajo como desarrollador frontend."</p>
+                            <div class="testimonial-author">
+                                <img src="./img/profileUno.jpg" alt="Foto de Mary Coombs"
+                                    loading="lazy">
+                                <div>
+                                    <h4>Mary Coombs</h4>
+                                    <p>Desarrolladora de Software</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"La metodología práctica me permitió aprender rápidamente. Ahora
+                                tengo mi propia startup de desarrollo de apps."</p>
+                            <div class="testimonial-author">
+                                <img src="./img/profileDos.jpg" alt="Foto de Carlos Plata"
+                                    loading="lazy">
+                                <div>
+                                    <h4>Carlos El Pin</h4>
+                                    <p>Fundador de Programming Sanctuary</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <span class="logo-icon">{</span>
+                        <span class="logo-text">Programming Sanctuary</span>
+                        <span class="logo-icon">}</span>
+                    </div>
+                    <p class="footer-text">Transformando vidas a través de la programación desde 2023.</p>
+                    <div class="footer-contact">
+                        <p><strong>Email: </strong>hola@programmingsanctuary.com</p>
+                        <p><strong>Teléfono: </strong>+502 6666 2890</p>
+                        <p><strong>Dirección: </strong>Av. Siempre Viva #742, Ciudad Digital</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons-social-media/icons8-facebook-logo-94.png">
+                                <source media="(min-width:465px)" srcset="./img/icons-social-media/icons8-facebook-logo-48.png">
+                                <img src="./img/icons-social-media/icons8-facebook-logo-94.png" alt="Imagen de logo Facebook" style="width:auto;">
+                            </picture>
+                        </a>
+                        <a href="#" aria-label="Youtube">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons-social-media/icons8-youtube-100.png">
+                                <source media="(min-width:465px)" srcset="./img/icons-social-media/icons8-youtube-48.png">
+                                <img src="./img/icons-social-media/icons8-youtube-100.png" alt="Imagen de logo Youtube" style="width:auto;">
+                            </picture>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons-social-media/icons8-instagram-logo-94.png">
+                                <source media="(min-width:465px)" srcset="./img/icons-social-media/icons8-instagram-logo-48.png">
+                                <img src="./img/icons-social-media/icons8-instagram-logo-94.png" alt="Imagen de logo Instagram" style="width:auto;">
+                            </picture>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                             <picture>
+                                <source media="(min-width:650px)" srcset="./img/icons-social-media/icons8-linkedin-100.png">
+                                <source media="(min-width:465px)" srcset="./img/icons-social-media/icons8-linkedin-48.png">
+                                <img src="./img/icons-social-media/icons8-linkedin-100.png" alt="Imagen de logo Instagram" style="width:auto;">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-form">
+                    <h3 class="form-title">¿Listo para tu Codiventura?</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4" ></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Programming Sanctuary. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/script.js">        
+    </script>
+</body>
+
+</html>
