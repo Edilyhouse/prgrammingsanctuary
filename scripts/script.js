@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     setTimeout(() => {
                         formMessage.style.display = 'none';
                         formMessage.classList.remove('success');
-                    }, 3);
+                    }, 3000);
                 } else {
                     throw new Error('Error al enviar mensaje');
                 }
